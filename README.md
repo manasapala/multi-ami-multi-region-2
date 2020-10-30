@@ -40,6 +40,7 @@ CloudWatch event that triggers the trigger-multiplier.py whenever there is a cha
     ]
   }
 }
+
 S3 event remains the same as earlier
 
 In the github the naming convention of install.sh changes as below
