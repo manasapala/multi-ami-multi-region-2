@@ -16,10 +16,10 @@ In S3 our bucket 'demos-s3-lambda' there will be 2 folders:
 linux-base-image , windows-base-image
 Folder structure:
 - linux-base-image
-   app111-config.json
-   app112-config.json
+   - app111-config.json
+   - app112-config.json
 - windows-base-image
-   app113-config.json
+   - app113-config.json
    
 CloudWatch event that triggers the trigger-multiplier.py whenever there is a change in base image now consists of 2 SSM Parameters
 
@@ -42,6 +42,8 @@ CloudWatch event that triggers the trigger-multiplier.py whenever there is a cha
 }
 
 S3 event remains the same as earlier
+
+SNS topic is added to build-lambda.py to notify the success or failure of the build phase. SNS Arn is hardcoded.
 
 In the github the naming convention of install.sh changes as below
 - app111.install.sh
