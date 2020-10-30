@@ -56,8 +56,8 @@ You need to visit the 'Settings' of the user account and under 'Developer settin
 Generate a token and create a parameter in the SSM Parameter store with the name GITHUB_TOKEN and add the token as value.
 
 Create 3 environment variables on the build-lambda.py UI.
-- GITHUB_EMAIL -<your github email>
-- GITHUB_REPO -<Repository that you want to access in the lambda>
-- GITHUB_USERNAME -<your github user name>
+- GITHUB_EMAIL : <your github email>
+- GITHUB_REPO : <Repository that you want to access in the lambda>
+- GITHUB_USERNAME : <your github user name>
  
   
