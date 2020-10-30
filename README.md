@@ -1,5 +1,5 @@
 # multi-ami-multi-region-2
-This version of build-phase custom-ami comes with some changes to the existing the parameter store variables,events and lambda functions.
+This version of build-phase custom-ami comes with some changes to the existing parameter store variables,events and lambda functions.
 Only config files(linux/windows) are stored in s3 bucket. Install.sh and Common-packer.json files are stored in github.
 
 Parameter store changes:
